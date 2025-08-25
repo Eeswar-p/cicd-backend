@@ -16,6 +16,11 @@ public class ArithmaticCalc {
 	{
 		return "Addition = " + (a+b);
 	}
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello World";
+    }
+
 	@GetMapping("sub/{A}/{B}")
 	public String sub(@PathVariable("A") int a, @PathVariable("B") int b)
 	{
