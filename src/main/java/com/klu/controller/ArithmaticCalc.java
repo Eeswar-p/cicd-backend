@@ -16,7 +16,7 @@ public class ArithmaticCalc {
 	{
 		return "Addition = " + (a+b);
 	}
-    @GetMapping("/hello")
+    @GetMapping
     public String hello() {
         return "Hello World";
     }
